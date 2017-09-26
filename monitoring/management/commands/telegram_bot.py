@@ -7,7 +7,7 @@ import telebot
 
 # from monitoring.models import Worker
 
-token = '365184875:AAG5XwC7wSW1ZobwkZxrtlqpSyUb_xa5nAc'
+token = ''
 
 bot = telebot.TeleBot(token)
 
