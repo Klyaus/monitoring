@@ -1,5 +1,4 @@
 # from slacker import Slacker
-# slack = Slacker('xoxb-230633578469-NkN9fdZdoKVbgHvSbkzHOtC6')
 from django.core.management.base import BaseCommand
 import time
 from slackclient import SlackClient
@@ -7,7 +6,7 @@ import datetime
 from django.db.models import Sum, Count
 from monitoring.models import *
 
-BOT_TOKEN = "xoxb-230633578469-NkN9fdZdoKVbgHvSbkzHOtC6"
+BOT_TOKEN = ""
 CHANNEL_NAME = "mining_monitoring"
 
 pools_name = list(UserPools.objects.values('name'))
